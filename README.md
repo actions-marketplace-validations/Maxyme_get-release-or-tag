@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: tenhaus/get-release-or-tag@v2
+      - uses: Maxyme/get-release-or-tag@v2.1
         id: tag
 
       - name: Build
